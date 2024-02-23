@@ -1,0 +1,150 @@
+body {background-color: rgb(22, 22, 22);
+    font-size: 2rem;
+ font-family: 'Oswald', sans-serif;
+
+
+
+
+
+
+}
+
+h1 {color: yellow;
+text-align: center;
+background-color: rgb(22, 22, 22);
+height: 1000px;
+background-image: url(../img/evento2.jpg);
+background-repeat: no-repeat;
+background-size:50%;
+background-position: center;
+
+
+
+
+
+
+
+}
+
+h2 {color: yellow;
+text-align: center;
+font-family: 'PT Serif', serif;
+
+
+
+
+}
+
+
+    
+p {color: yellow;
+text-align: justify;
+
+}
+
+a {text-decoration: none;
+color:yellow;}
+
+
+.opciones {
+    display: flex;
+    justify-content: center;
+
+}
+
+.servicio {
+    width: 350px;
+    height: 450px;
+    margin-right: 20px;
+    border: 5px solid yellow;
+
+}
+
+.cursos {
+
+    width: 350px;
+    height: 450px;
+    margin-left: 30px;
+    border: 5px solid yellow;
+    
+}
+div p{
+    font-size: small;
+    text-align: center;
+    
+
+}
+h3 {
+    color: yellow;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    
+}
+
+
+    
+    
+
+.ejemplos{
+  
+    display: flex;
+    justify-content:center;
+    
+}
+.tragos {
+    border: 5px solid yellow;
+    width: 200px;
+    min-height: 320px;
+    
+    
+}
+.tragos img {
+    
+  
+  
+    width: 100%;
+    height: 280px;
+    border-bottom: 5px solid yellow;
+    
+   
+    
+    
+
+}
+
+
+
+ul {
+    color: yellow;}
+    
+
+div ul {
+    
+    font-size: 1rem;
+    
+    display:flex ;
+    flex-direction: column;
+    align-items: left;
+    gap: 1rem;
+  
+}
+ .separacion{
+    background-color: yellow;
+    height: 10px;
+   margin-bottom: 30px;
+
+}
+form {
+    color: yellow;
+}
+h6 {
+    
+    color: yellow;
+    text-align: center;
+    
+}
+
+
+
+
+
