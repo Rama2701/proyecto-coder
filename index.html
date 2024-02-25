@@ -4,16 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>drink with us</title>
 </head>
 <body>
 <header>
-<h1>DRINKS SERVICES</h1>
-<h2 >DEL LADO CORRECTO DE LA BARRA</h2>
-<p>Nos dedicamos a llevar nuestras barras a donde más lo necesites, tambien capacitamos para convertirte en un bartender de alta calidad</p>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <h1>DRINK SERVICES</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./servicios/servicio.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./cursos/main.html">
+                 CURSOS
+                </a>
+              </li>
+            </ul> 
+           
+        
+          </div>
+        </div>
+      </nav>
+
 </header>
 <main>
+<section>
+<div class= portada>
+
+</div>
+
+<div class="contenido_portada">
+  <h2>DEL LADO CORRECTO DE LA BARRA</h2>
+  <p>Nos dedicamos a llevar nuestras barras a donde más lo necesites, tambien capacitamos para convertirte en un bartender de alta calidad</p>
+
+</div>
+
+
+
+
+</section> 
+
    <section class="opciones">
    
 
@@ -41,9 +83,9 @@
             <h6>Hennessy Citrus</h6>
             <ul class="receta">
             
-                <ol>hennessy 50ml</ol>
-                <ol>campari 10ml</ol>
-                <ol>completamos con<br> gaseosa de pomelo</ol>
+                <li>hennessy 50ml</li>
+                <li>campari 10ml</li>
+                <li> gaseosa de pomelo</li>
             </ul>
         </div>
         <div class="tragos">
@@ -51,20 +93,20 @@
        
            <h6>Espresso Martini</h6>
             <ul class="receta">
-                <ol>vodka 50ml</ol>
-                <ol>licor de café 25ml</ol>
-                <ol>café espresso 20ml</ol>
-                <ol>almibar 10ml</ol>
+                <li>vodka 50ml</li>
+                <li>licor de café 25ml</li>
+                <li>café espresso 20ml</li>
+                <li>almibar 10ml</il>
             </ul>
         </div>
         <div class="tragos">
             <img class="DR" src="./img/dick-rivers.jpg" alt="rivers">
             <h6>Dick Rivers</h6>
             <ul class="receta">
-                <ol>hennessy 60ml</ol>
-                <ol>almibar de miel 10ml</ol>
-                <ol>sour de jengibre 10ml</ol>
-                <ol>jugo de limon 10ml</ol>
+                <li>hennessy 60ml</ol>
+                <li>almibar de miel 10ml</li>
+                <li>sour de jengibre 10ml</li>
+                <li>jugo de limon 10ml</li>
             </ul>
 
         </div>
@@ -85,19 +127,21 @@
  </section>
 </main> 
 <footer>
-    <section class="separacion"></section><!--use esto para poder poner la linea amarilla y separarlo de los contactos-->
 
-    <section>
+<section class="fin_main">    
+    
+<div class="separacion_footer">
     <a href="">Contactanos</a><br>
     <a href="">Instagram</a>
-   
-</section>
+</div>
+
 <form action="form.php" method="post">
 <label for="E-mail">Tu email</label>
 <input type="email" name="email" id="email"><br>
 <textarea name="" id="" cols="30" rows="10">CONSULTANOS</textarea><br>
 <input type="submit" value="ENVIAR">
 
+</section>
 
 
 
@@ -136,6 +180,7 @@
 
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
