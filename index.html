@@ -32,8 +32,6 @@
                 </a>
               </li>
             </ul> 
-           
-        
           </div>
         </div>
       </nav>
@@ -45,7 +43,7 @@
 
 </div>
 
-<div class="contenido_portada">
+<div class="contenido_portada ">
   <h2>DEL LADO CORRECTO DE LA BARRA</h2>
   <p>Nos dedicamos a llevar nuestras barras a donde más lo necesites, tambien capacitamos para convertirte en un bartender de alta calidad</p>
 
@@ -56,90 +54,93 @@
 
 </section> 
 
-   <section class="opciones">
-   
-
-
-        <div class="caja">
-            <h3>servicios</h3>
-        <a href="./servicios/servicio.html"> <img class="servicio" src="./img/servicio.jpg" alt="ejemplo de servicio"></a>
-        <p>ofrecemos nuestros cócteles para que te<br> conviertas en el mejor anfitrión que exista </p>
+<section class="Servicios">
+    
+   <h3 class="text center display-3">SERVICIOS</h3>
+    <div class="servicios_silde">
+    <div id="servicios" class="carousel slide">
+      
+      <div class="carousel-inner">
+        <div class="carousel-item  active">
+          <img src="./img/evento6.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption ">
+            <a class="btn btn-primary" href="./servicios/servicio.html" role="button">Saber Más</a>
+            <p>llevamos la barra a donde más lo necesites, servicio de calidad con los mejores cocteles</p>
+          </div>
         </div>
-
-        <div class="caja">
-            <h3>Cursos</h3>
-            <a href="./cursos/main.html"> <img class="cursos" src="./img/curso.jpg" alt="foto del curso"></a>
-            <p>te vamos a enseñar como desenvolverte dentro del mundo de la coctelería,<br> como crear tu trago de autor y vamos a sacar al bartender en tu interior</p>
+        <div class="carousel-item ">
+          <img src="./img/evento4.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption  ">
+            <a class="btn btn-primary" href="./servicios/servicio.html" role="button">Saber Más</a>
+            <p>llevamos la barra a donde más lo necesites, servicio de calidad con los mejores cocteles</p>
+          </div>
         </div>
-
-   
-
- </section>
-
- <section>
-    <div class="ejemplos">
-        <div class="tragos">
-            <img class="HC" src="./img/hennessy-citrus.jpg" alt="hennessy">
-            <h6>Hennessy Citrus</h6>
-            <ul class="receta">
-            
-                <li>hennessy 50ml</li>
-                <li>campari 10ml</li>
-                <li> gaseosa de pomelo</li>
-            </ul>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#servicios" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#servicios" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+       </div>
+  </div>
+</section>
+<section class="cursos">
+    
+  <h3 class="text center display-3">CURSOS</h3>
+    <div class="cursos_slide">
+  <div id="cursos" class="carousel slide">
+    
+    <div class="carousel-inner">
+      <div class="carousel-item  active">
+        <img src="./img/curso1.jpg" class="d-block w-100 " alt="...">
+        <div class="carousel-caption ">
+          <a class="btn btn-primary" href="./cursos/main.html" role="button">Saber Más</a>
+          <p>Convertite en un bartender de alta calidad, capaz de preparar todo tipo cocteles</p>
         </div>
-        <div class="tragos">
-            <img class="martini" src="./img/espresso-martini.jpg" alt="classic" >
-       
-           <h6>Espresso Martini</h6>
-            <ul class="receta">
-                <li>vodka 50ml</li>
-                <li>licor de café 25ml</li>
-                <li>café espresso 20ml</li>
-                <li>almibar 10ml</il>
-            </ul>
+      </div>
+      <div class="carousel-item ">
+        <img src="./img/curso4.jpg" class="d-block w-100 " alt="...">
+        <div class="carousel-caption  ">
+          <a class="btn btn-primary" href="./cursos/main.html" role="button">Saber Más</a>
+          <p>Convertite en un bartender de alta calidad, capaz de preparar todo tipo cocteles</p>
         </div>
-        <div class="tragos">
-            <img class="DR" src="./img/dick-rivers.jpg" alt="rivers">
-            <h6>Dick Rivers</h6>
-            <ul class="receta">
-                <li>hennessy 60ml</ol>
-                <li>almibar de miel 10ml</li>
-                <li>sour de jengibre 10ml</li>
-                <li>jugo de limon 10ml</li>
-            </ul>
-
-        </div>
-
-
-
-
-
-
-
-
+      </div>
     </div>
-
-
-
-
+    <button class="carousel-control-prev" type="button" data-bs-target="#cursos" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#cursos" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    
+  </div>
+</div>
+   
 
  </section>
+
+ 
 </main> 
 <footer>
 
 <section class="fin_main">    
     
-<div class="separacion_footer">
+  <div class="separacion_footer">
     <a href="">Contactanos</a><br>
     <a href="">Instagram</a>
+    <form action="form.php" method="post">
+      <label for="E-mail">Tu email</label>
+      <input type="email" name="email" id="email"><br>
+      <textarea name="" id="" cols="30" rows="10">CONSULTANOS</textarea><br>
+      <input type="submit" value="ENVIAR">
+      
 </div>
 
-<form action="form.php" method="post">
-<label for="E-mail">Tu email</label>
-<input type="email" name="email" id="email"><br>
-<textarea name="" id="" cols="30" rows="10">CONSULTANOS</textarea><br>
-<input type="submit" value="ENVIAR">
 
 </section>
 

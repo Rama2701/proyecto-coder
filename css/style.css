@@ -1,9 +1,11 @@
 
+*{
 
+}
 body {background-color: rgb(22, 22, 22);
     font-size: 2rem;
  font-family: 'Oswald', sans-serif;
- margin: 0;
+ margin: ;
 padding: 1rem;
 
 
@@ -80,7 +82,7 @@ font-family: 'PT Serif', serif;
 
 /*termina portada*/
 
-
+/*servicios y cursos*/
     
 p {color: yellow;
 text-align: justify;
@@ -91,29 +93,24 @@ text-align: justify;
 a {text-decoration: none;
 color:yellow;}
 
-
-.opciones {
-    display: flex;
-    justify-content: center;
-
+.Servicios{
+  
+    width: 100%;
+    
+    border: 3px solid yellow;
+    margin: 5px;
 }
 
-.servicio {
-    width: 350px;
-    height: 450px;
-    margin-right: 20px;
-    border: 5px solid yellow;
-
-}
 
 .cursos {
 
-    width: 350px;
-    height: 450px;
-    margin-left: 30px;
-    border: 5px solid yellow;
+    width: 100%;
+    
+    border: 3px solid yellow;
+
     
 }
+
 div p{
     font-size: small;
     text-align: center;
@@ -128,7 +125,7 @@ h3 {
 }
 
 
-    
+   /*ejemplo de tragos*/ 
     
 
 .ejemplos{
@@ -140,9 +137,11 @@ h3 {
     
 }
 .tragos {
+   
+    margin: 10px;
     border: 5px solid yellow;
-    width: 200px;
-    min-height: 320px;
+    width: 500px;
+    min-height: 400px;
     
     
     
@@ -152,7 +151,7 @@ h3 {
   
   
     width: 100%;
-    height: 280px;
+    height: 480px;
     border-bottom: 5px solid yellow;
     
    
@@ -174,15 +173,12 @@ h3 {
 /*footer*/
 
 
-.separacion_footer{
-    font-size: 1.5rem;
-    border-top: 3px solid yellow;
-}
 
-form {
-    font-size: 1.5rem;
+footer {
+    display: flex;
+    font-size: 1rem;
     color: yellow;
- 
+ flex-direction: column;
     
 }
 h6 {
@@ -190,6 +186,69 @@ h6 {
     color: yellow;
     text-align: center;
     
+}
+
+/* empieza sección "main"*/
+.portada_cursos{
+position: relative;
+width: 100%;
+height: 100vh;
+background-image: url(../img/curso2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center  ;
+}
+.portada_cursos::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.55)
+    }
+
+.contenido_portada_cursos{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.contenido_portada_cursos h2 {
+
+    font-size: 4rem;
+}
+.contenido_portada_cursos p{
+    font-size: 1rem;
+}
+
+section{
+    border-bottom: 3px solid yellow;
+}
+.texto_familias a{
+    font-weight: bold;
+    text-decoration: dashed;
+    color: rgb(228, 225, 225);
+    border: 1px solid rgb(114, 114, 11);
+    gap: 3px;
+}
+
+@media only screen and (min-width: 768px) {
+    .contenido_portada_cursos h2 {
+
+        font-size: 4rem;
+    }
+    .contenido_portada_cursos p{
+        font-size: 1.5rem;
+    }
+    .texto_familias p{
+        font-size: 1.5rem;
+    }
+    .texto_familias a{
+        font-size: 1.5rem;
+    }
 }
 
 
