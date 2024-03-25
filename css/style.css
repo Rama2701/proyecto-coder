@@ -1,257 +1,300 @@
 
-*{
-
-}
-body {background-color: rgb(22, 22, 22);
-    font-size: 2rem;
- font-family: 'Oswald', sans-serif;
- margin: ;
-padding: 1rem;
-
-
-
-
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header {color: yellow;
-text-align: center;
-gap: 1rem;
-border-bottom: 2px solid yellow;
-
+body {
+  background-color: rgb(22, 22, 22);
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  padding: 1rem;
 }
 
-nav{
-    background-color: rgb(22, 22, 22);
-    
+p {
+  color: yellow;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  color: yellow;
+}
+
+h2 {
+  color: yellow;
+  text-align: center;
+  font-family: "PT Serif", serif;
+}
+
+header {
+  color: yellow;
+  text-align: center;
+  gap: 1rem;
+  border-bottom: 2px solid yellow;
+}
+header ul,
+header li {
+  list-style: none;
+  font-size: 1.5rem;
+  color: yellow;
+}
+
+section {
+  border-bottom: 2px solid yellow;
+}
+
+footer {
+  display: flex;
+  font-size: 1rem;
+  color: yellow;
+  flex-direction: column;
+}
+
+h6 {
+  color: yellow;
+  text-align: center;
+}
+
+header {
+  color: yellow;
+  text-align: center;
+  gap: 1rem;
+  border-bottom: 2px solid yellow;
+}
+
+nav {
+  background-color: rgb(22, 22, 22);
 }
 
 .navbar .navbar-brand, .navbar .navbar-nav .nav-link {
-    color: yellow;
-  }
-h1{
-    font-family: 'PT Serif', serif;
-    color: yellow;
+  color: yellow;
 }
 
-header ul {
-    list-style: none;
-    font-size: 1.5rem;
+.portada {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/portada.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.portada::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.portada .container {
+  height: 100vh;
+  z-index: 1;
+  position: relative;
+}
+.portada h2 {
+  font-size: 2rem;
+}
+.portada p {
+  color: yellow;
+  text-align: justify;
+  font-size: 1rem;
 }
 
-/*comienza la portada*/
-h2 {color: yellow;
-text-align: center;
-font-family: 'PT Serif', serif;
-
+a {
+  text-decoration: none;
+  color: yellow;
 }
 
-.portada{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url(../img/portada.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
+.Servicios {
+  width: 100%;
+  margin: 5px;
 }
-.portada::after{
-   content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.55)
-}
-.contenido_portada{ 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-
-}
-.contenido_portada h2 {
-
-    font-size: 4rem;
-}
-.contenido_portada p{
-    font-size: 1.5rem;
-}
-
-/*termina portada*/
-
-/*servicios y cursos*/
-    
-p {color: yellow;
-text-align: justify;
-
-
-}
-
-a {text-decoration: none;
-color:yellow;}
-
-.Servicios{
-  
-    width: 100%;
-    
-    border: 3px solid yellow;
-    margin: 5px;
-}
-
 
 .cursos {
-
-    width: 100%;
-    
-    border: 3px solid yellow;
-
-    
+  width: 100%;
 }
 
-div p{
-    font-size: small;
-    text-align: center;
-    
-
+div p {
+  font-size: small;
+  text-align: center;
 }
+
 h3 {
-    color: yellow;
-    text-align: center;
-    font-family: 'PT Serif', serif;
-    
-}
-
-
-   /*ejemplo de tragos*/ 
-    
-
-.ejemplos{
   color: yellow;
-    display: flex;
-    justify-content:center;
-    gap: 1rem;
-    
-    
-}
-.tragos {
-   
-    margin: 10px;
-    border: 5px solid yellow;
-    width: 500px;
-    min-height: 400px;
-    
-    
-    
-}
-.tragos img {
-    
-  
-  
-    width: 100%;
-    height: 480px;
-    border-bottom: 5px solid yellow;
-    
-   
-    
-    
-
-}
-.receta{
-    
-    font-size: 1rem;
-    
-    display:flex ;
-    flex-direction: column;
-    gap: 1rem;
-    
-  
+  text-align: center;
+  font-family: "PT Serif", serif;
 }
 
-/*footer*/
-
-
-
-footer {
-    display: flex;
-    font-size: 1rem;
-    color: yellow;
- flex-direction: column;
-    
+.portada_cursos {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/curso2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-h6 {
-    
-    color: yellow;
-    text-align: center;
-    
+.portada_cursos::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
 }
-
-/* empieza sección "main"*/
-.portada_cursos{
-position: relative;
-width: 100%;
-height: 100vh;
-background-image: url(../img/curso2.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center  ;
+.portada_cursos .container {
+  height: 100vh;
+  z-index: 1;
+  position: relative;
 }
-.portada_cursos::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.55)
-    }
-
-.contenido_portada_cursos{ 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-
+.portada_cursos h2 {
+  font-size: 2rem;
 }
-.contenido_portada_cursos h2 {
-
-    font-size: 4rem;
-}
-.contenido_portada_cursos p{
-    font-size: 1rem;
+.portada_cursos p {
+  color: yellow;
+  text-align: justify;
+  font-size: 1rem;
 }
 
-section{
-    border-bottom: 3px solid yellow;
-}
-.texto_familias a{
-    font-weight: bold;
-    text-decoration: dashed;
-    color: rgb(228, 225, 225);
-    border: 1px solid rgb(114, 114, 11);
-    gap: 3px;
+.texto_familias a {
+  font-weight: bold;
+  text-decoration: dashed;
+  color: rgb(228, 225, 225);
+  border: 1px solid rgb(114, 114, 11);
+  gap: 3px;
 }
 
 @media only screen and (min-width: 768px) {
-    .contenido_portada_cursos h2 {
-
-        font-size: 4rem;
-    }
-    .contenido_portada_cursos p{
-        font-size: 1.5rem;
-    }
-    .texto_familias p{
-        font-size: 1.5rem;
-    }
-    .texto_familias a{
-        font-size: 1.5rem;
-    }
+  .container h2 {
+    font-size: 4rem;
+  }
+  .container p {
+    font-size: 1.5rem;
+  }
+  .texto_familias p {
+    font-size: 1.5rem;
+  }
+  .texto_familias a {
+    font-size: 1.5rem;
+  }
+}
+.portada_familias {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/portada-familia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.portada_familias::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.portada_familias .container {
+  height: 100vh;
+  z-index: 1;
+  position: relative;
+}
+.portada_familias h2 {
+  font-size: 2rem;
+}
+.portada_familias p {
+  color: yellow;
+  text-align: justify;
+  font-size: 1rem;
 }
 
+.highball {
+  width: 100%;
+  position: relative;
+}
+.highball img {
+  width: 100%;
+}
 
+ul {
+  border-bottom: 1px solid yellow;
+}
 
+li {
+  color: yellow;
+  font-size: 1rem;
+}
 
+.ejemplos {
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 
+.tragos {
+  margin: 10px;
+  border: 5px solid yellow;
+  width: 500px;
+  min-height: 400px;
+}
+.tragos img {
+  width: 100%;
+  height: 480px;
+  border-bottom: 5px solid yellow;
+}
+
+.receta {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .contenido-h {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .contenido-h:hover {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
