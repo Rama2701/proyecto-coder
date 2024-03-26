@@ -1,0 +1,101 @@
+.portada_familias{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/portada-familia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &::before {
+        content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.55)
+    }
+
+    .container  {
+        height: 100vh;
+        z-index: 1;
+        position: relative;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+       
+    p {color: $color-secundary;
+        text-align: justify;
+        font-size: 1rem;
+        
+        
+        }
+    }
+
+
+.highball{
+    width: 100%;
+    position: relative;
+
+    img{
+        width: 100%;
+       
+    
+    }
+}
+
+
+
+ ul{
+    border-bottom: 1px solid yellow;
+}
+
+    li{
+    color: $color-secundary;
+    font-size: 1rem;
+ }
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 768px) {
+   
+h2{
+    font-size: 3rem;
+
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+
+
+.contenido-h{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background:rgba(0,0,0,0.6 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+
+    &:hover{
+opacity: 1;
+    }
+}
+  }

@@ -1,0 +1,13 @@
+header {color: $color-secundary;
+    text-align: center;
+    gap: 1rem;
+    border-bottom: 2px solid $color-secundary;
+}    
+nav{
+    background-color: $color-primary;
+    
+}
+
+.navbar .navbar-brand, .navbar .navbar-nav .nav-link {
+    color: $color-secundary;
+  }

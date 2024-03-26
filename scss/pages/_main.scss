@@ -1,0 +1,64 @@
+.portada_cursos{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/curso2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &::before {
+        content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.55)
+    }
+
+    .container  {
+        height: 100vh;
+        z-index: 1;
+        position: relative;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+       
+    p {color: $color-secundary;
+        text-align: justify;
+        font-size: 1rem;
+        
+        
+        }
+    }
+
+    .texto_familias a{
+        font-weight: bold;
+        text-decoration: dashed;
+        color: rgb(228, 225, 225);
+        border: 1px solid rgb(114, 114, 11);
+        gap: 3px;
+    }
+    
+
+@media only screen and (min-width: 768px) {
+    .container {
+    h2 {
+
+        font-size: 4rem;
+    }
+     p{
+        font-size: 1.5rem;
+    }
+}
+    .texto_familias p{
+        font-size: 1.5rem;
+    }
+    .texto_familias a{
+        font-size: 1.5rem;
+    }
+}
