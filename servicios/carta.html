@@ -1,81 +1,134 @@
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>carta</title>
 </head>
 <body>
-    <section>
-        <div class="ejemplos">
-            <div class="tragos">
-                <img class="HC" src="../img/hennessy-citrus.jpg" alt="hennessy">
-                <h6>Hennessy Citrus</h6>
-                <ul class="receta">
-                
-                    <li>hennessy 50ml</li>
-                    <li>campari 10ml</li>
-                    <li> gaseosa de pomelo</li>
-                </ul>
-            </div>
-            <div class="tragos">
-                <img class="martini" src="../img/espresso-martini.jpg" alt="classic" >
-           
-               <h6>Espresso Martini</h6>
-                <ul class="receta">
-                    <li>vodka 50ml</li>
-                    <li>licor de café 25ml</li>
-                    <li>café espresso 20ml</li>
-                    <li>almibar 10ml</il>
-                </ul>
-            </div>
-            <div class="tragos">
-                <img class="DR" src="../img/dick-rivers.jpg" alt="rivers">
-                <h6>Dick Rivers</h6>
-                <ul class="receta">
-                    <li>hennessy 60ml</li>
-                    <li>almibar de miel 10ml</li>
-                    <li>sour de jengibre 10ml</li>
-                    <li>jugo de limon 10ml</li>
-                </ul>
-    
-            </div>
-            <div class="tragos">
-              <img class="man" src="../img/manhattan.jpg" alt="manhattan">
-              <h6>manhattan</h6>
-              <ul class="receta">
-                  <li>bourbon 60ml</li>
-                  <li>vermouth rosso 60ml</li>
-                  <li>biter angostura 3 dashes</li>
-                  
-              </ul>
-    
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <h1>DRINK SERVICES</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../servicios/servicio.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="../cursos/main.html">
+                 CURSOS
+                </a>
+              </li>
+            </ul> 
           </div>
-          <div class="tragos">
-            <img class="negroni" src="../img/negroni.jpg" alt="negroni">
-            <h6>negroni</h6>
-            <ul class="receta">
-                <li>gin 30ml</ol>
-                <li>vermouth rosso 30 ml</li>
-                <li>campari 30ml</li>
-                
+        </div>
+      </nav>
+</header>
+<main>
+
+    <section class="portada-cartas">
+
+
+        <div class="container d-flex aling-items-center justify-content-center fs-1 flex-column">
+          <h2>Nuestra Carta</h2>
+          <p>Aqui verás un poco de lo que tenemos para ofrecerte, para poder saber más deberás contactarnos y nosotros te pasaremos un archivo completo con nuestros menús</p>
+        
+        </div>
+        
+        
+        
+        
+        </section> 
+
+<section>
+    <div class="card-container">
+        <div class="cartas">
+             <img  src="../img/hennessy-citrus.jpg" alt="hennessy">
+        <div class="cont-carta">
+             <h3> Hennessy Citrus</h3>
+             <ul >
+                <li>hennessy 50ml</li>
+                <li>campari 10ml</li>
+                <li> gaseosa de pomelo</li>
+                <li> jugo de limon 20ml</li>
+             </ul>
+             <p> Para saber más ve nuestros  <a href="../servicios/servicio.html" class="btn">servicios</a></p>
+            </div>
+        </div>
+        <div class="cartas">
+            <img  src="../img/espresso-martini.jpg" alt="hennessy">
+       <div class="cont-carta">
+            <h3>Espresso Martini</h3>
+            <ul >
+                <li>vodka 50ml</li>
+                <li>licor de café 25ml</li>
+                <li>café espresso 20ml</li>
+                <li>almibar 10ml</il>
             </ul>
-    
-        </div>
-    
-    
-    
-    
-    
-    
-    
-    
-        </div>
-    
-    
-    
-    
-    
-     </section>
-</body>
+            <p> Para saber más ve nuestros  <a href="../servicios/servicio.html" class="btn">servicios</a></p>
+           </div>
+       </div>
+
+       <div class="cartas">
+        <img  src="../img/margarita.jpg" alt="hennessy">
+   <div class="cont-carta">
+        <h3>Dick Rivers</h3>
+        <ul >
+            <li>hennessy 60ml</li>
+            <li>almibar de miel 10ml</li>
+            <li>sour de jengibre 10ml</li>
+            <li>jugo de limon 10ml</li>
+        </ul>
+        <p> Para saber más ve nuestros  <a href="../servicios/servicio.html" class="btn">servicios</a></p>
+       </div>
+   </div>
+
+   <div class="cartas">
+    <img  src="../img/manhattan.jpg" alt="manhattan">
+<div class="cont-carta">
+    <h3> Manhattan</h3>
+    <ul >
+        <li>bourbon 60ml</li>
+        <li>vermouth rosso 60ml</li>
+        <li>biter angostura 3 dashes</li>
+        
+    </ul>
+    <p> Para saber más ve nuestros  <a href="../servicios/servicio.html" class="btn">servicios</a></p>
+   </div>
+</div>
+<div class="cartas">
+    <img  src="../img/cosmopolitan2.jpg" alt="negroni">
+<div class="cont-carta">
+    <h3> Hennessy Citrus</h3>
+    <ul >
+      <li>gin 30ml</ol>
+      <li>vermouth rosso 30 ml</li>
+      <li>campari 30ml</li>
+    </ul>
+    <p> Para saber más ve nuestros  <a href="../servicios/servicio.html" class="btn">servicios</a></p>
+   </div>
+</div>
+       
+    </div>
+</section>
+
+</main>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    </body>
 </html>
